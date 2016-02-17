@@ -78,10 +78,11 @@ div .note {
 nav {	
 	position: relative;
 	border-top: 1px #cacbcb solid;
+	border-bottom: 1px solid #000;
 	-webkit-box-shadow: 0 2px 1px 0 #858484;
 	   -moz-box-shadow: 0 2px 1px 0 #858484;
 	        box-shadow: 0 2px 1px 0 #858484;
-	text-align: center;
+	text-align: left;
 }
 .menu-item {
 	float: left;
@@ -89,8 +90,8 @@ nav {
 }
 .menu-item a {
 	display: block;
-	width: 140px;
-	padding: 7px 0;
+	width: 130px;
+	padding: 7px 0 7px 10px;
 	background: #373737;
 	background: -moz-linear-gradient(top, #373737 0%, #303030 100%);
 	background: -webkit-linear-gradient(top, #373737 0%, #303030 100%);
@@ -100,12 +101,12 @@ nav {
 	text-decoration: none;
 }
 .menu > li:first-child a {
-	padding-left: 20px;
+	padding-left: 30px;
 }
 ul.submenu {
 	display: none;
 	position: absolute;
-	top: 27px;
+	top: 29px;
 	left: 0;
 	-webkit-box-shadow: 0 3px 4px 2px #858484;
 	   -moz-box-shadow: 0 3px 4px 2px #858484;
