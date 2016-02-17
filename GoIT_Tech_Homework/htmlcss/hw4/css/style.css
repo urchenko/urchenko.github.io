@@ -75,53 +75,63 @@ div .note {
 }
 
 /*--- navigation ---*/
-nav {	
+ul.menu {
 	position: relative;
-	border-top: 1px #cacbcb solid;
+	border-top: 1px solid #cacbcb;
 	border-bottom: 1px solid #000;
-	-webkit-box-shadow: 0 2px 1px 0 #858484;
-	   -moz-box-shadow: 0 2px 1px 0 #858484;
-	        box-shadow: 0 2px 1px 0 #858484;
-	text-align: left;
-}
-.menu-item {
-	float: left;
-	position: relative;
-}
-.menu-item a {
-	display: block;
-	width: 130px;
-	padding: 7px 0 7px 10px;
 	background: #373737;
 	background: -moz-linear-gradient(top, #373737 0%, #303030 100%);
 	background: -webkit-linear-gradient(top, #373737 0%, #303030 100%);
-	background: linear-gradient(to bottom, #373737 0%, #303030 100%);	
+	background: linear-gradient(to bottom, #373737 0%, #303030 100%);
+	-webkit-box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.5);
+	   -moz-box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.5);
+	        box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.5);
+} 
+li.menu-item {
+	position: relative;
+	float: left;
+	padding: 7px 0 8px;
+	margin: 0 0 0 55px;
+
+}
+li.menu-item a {
+	display: block;
+	padding: 0 10px;
 	color: #fff;
 	font-size: 14px;
 	text-decoration: none;
 }
-.menu > li:first-child a {
-	padding-left: 30px;
+li.menu-item a:hover {
+	color: #0e81a7;
 }
-ul.submenu {
-	display: none;
-	position: absolute;
-	top: 29px;
-	left: 0;
-	-webkit-box-shadow: 0 3px 4px 2px #858484;
-	   -moz-box-shadow: 0 3px 4px 2px #858484;
-	        box-shadow: 0 3px 4px 2px #858484; 
-}
-ul.submenu a {
-	background: #303030; 
-}
-.menu-item:hover > ul.submenu {
+.menu-item:hover .submenu {
 	display: block;
 }
 .sub > a:after {
 	content: url(../img/white_triangles.png);
-	padding-left: 7px;	
+	padding-left: 5px;
 }
+.sub:hover > a:after {
+	content: url(../img/white_triangles_hover.png);
+	padding-left: 5px;
+}
+ul.submenu {
+	position: absolute;
+	display: none;
+	top: 30px;
+	background: #373737;
+	-webkit-box-shadow: 0 4px 10px 4px rgba(0, 0, 0, 0.4);
+   	   -moz-box-shadow: 0 4px 10px 4px rgba(0, 0, 0, 0.4);
+            box-shadow: 0 4px 10px 4px rgba(0, 0, 0, 0.4);
+}
+li.submenu-item {
+	padding: 5px 0;
+	width: 150px;
+}
+li.submenu-item:last-child {
+	padding-bottom: 10px;
+}
+
 /*--- columns ---*/
 .content-colums {
 	background: url(../img/colums-bg.jpg) 0 0 repeat-y;
