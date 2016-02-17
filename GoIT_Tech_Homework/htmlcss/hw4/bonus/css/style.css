@@ -1,0 +1,79 @@
+body {
+	background: #0e81a7;
+}
+.wrap {
+	width: 1000px;
+	margin: 0 auto;
+	background: #fff;
+}
+.block {
+	width: 1000px;
+	height: 500px;
+	float: left;
+	background: white;	
+}
+.clearfix:after {
+	content: " ";
+	clear: both;
+	display: block;
+}
+/*-- navigation ---*/
+nav {
+	
+}
+ul.menu {
+	position: relative;
+	border-top: 1px solid #cacbcb;
+	border-bottom: 1px solid #000;
+	background: #373737;
+	background: -moz-linear-gradient(top, #373737 0%, #303030 100%);
+	background: -webkit-linear-gradient(top, #373737 0%, #303030 100%);
+	background: linear-gradient(to bottom, #373737 0%, #303030 100%);
+	-webkit-box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.5);
+	   -moz-box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.5);
+	        box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.5);
+} 
+li.menu-item {
+	position: relative;
+	float: left;
+	padding: 7px 0 8px;
+	margin: 0 0 0 55px;
+
+}
+li.menu-item a {
+	display: block;
+	padding: 0 10px;
+	color: #fff;
+	font-size: 14px;
+	text-decoration: none;
+}
+li.menu-item a:hover {
+	color: #0e81a7;
+}
+.menu-item:hover .submenu {
+	display: block;
+}
+.sub > a:after {
+	content: url(../img/white_triangles.png);
+	padding-left: 5px;
+}
+.sub:hover > a:after {
+	content: url(../img/white_triangles_hover.png);
+	padding-left: 5px;
+}
+ul.submenu {
+	position: absolute;
+	display: none;
+	top: 30px;
+	background: #373737;
+	-webkit-box-shadow: 0 4px 10px 4px rgba(0, 0, 0, 0.4);
+   	   -moz-box-shadow: 0 4px 10px 4px rgba(0, 0, 0, 0.4);
+            box-shadow: 0 4px 10px 4px rgba(0, 0, 0, 0.4);
+}
+li.submenu-item {
+	padding: 5px 0;
+	width: 150px;
+}
+li.submenu-item:last-child {
+	padding-bottom: 10px;
+}
