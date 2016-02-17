@@ -1,0 +1,62 @@
+/*--- global ---*/
+body {
+	background: #000;
+	font-family: Tahoma, sans-serif;
+}
+.wrapper {
+	width: 820px;
+	margin: 0 auto;
+	padding: 30px 70px 50px;
+	overflow: hidden;
+	background-image: url(../img/background.jpg);
+	background-repeat: no-repeat;
+}
+
+/*--- header ---*/
+header {
+	height: 145px;
+	background-image: url(../img/logo-bg.png);
+	background-repeat: no-repeat;
+	background-position: 20% 100%;
+}
+.logo {
+	float: left;
+	padding-top: 75px;
+	font-size: 13px;
+	text-align: center;
+}
+.logo h1 {
+	padding-top: 4px;
+}
+.contucts {
+	float: right;
+	padding-top: 85px;
+	font-size: 11px;
+}
+.contucts p {
+	padding-bottom: 3px;
+}
+.contucts p:first-child {
+	padding-bottom: 8px;
+	font-size: 12px;
+}
+
+/*--- content ---*/
+.content {
+	overflow: hidden;
+	font-size: 15px;
+	text-align: center;
+}
+.item {
+	display: inline-block;
+ 	height: 210px;
+ 	width: 270px;
+ 	margin-bottom: 50px;
+}
+
+/*--- footer ---*/
+.copyrite {
+	margin-top: 122px;
+	text-align: center;
+	font-size: 12px;
+}				
