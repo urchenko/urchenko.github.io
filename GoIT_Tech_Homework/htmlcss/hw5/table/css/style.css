@@ -61,7 +61,8 @@ tr.row4 td.data1 {
 	background: #0e0c0d url(../img/6-2.jpg) 0 0 no-repeat;	
 }
 tr.row4 td.data2 {	
-	width: 128px;	
+	width: 128px;
+	height: 60px;	
 }
 tr.row4 td.data3 {	
 	border-right: 0;	
