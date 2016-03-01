@@ -84,10 +84,10 @@ nav {
 /*--- content ---*/
 .content {
 	position: absolute;
-	top: 57%;
+	top: 249px;
 	left: 50%;
 	width: 560px;
-	margin: -306px 0 0 -280px;
+	margin-left: -280px;
 }
 .content-title {
 	margin-bottom: 2px;
