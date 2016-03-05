@@ -19,8 +19,17 @@ body {
 	display: block;
 }
 /*--- wrapp ---*/
+.head-wrapp,
+.about-block-wrapp,
+.content-main-wrapp,
+.content__brands-wrapp,
+.content-foot-wrapp,
+.footer-wrapp {
+	min-width: 960px;	
+	width: 100%;
+}
 .container {
-	width: 960px;
+	width: 960px;	
 	margin: 0 auto;
 }
 
@@ -135,7 +144,7 @@ nav {
 	position: absolute;
 	top: 179px;
 	left: -322px;
-	width: 1604px;
+	width: 1604px;	
 	height: 42px;
 }
 .slider__arrow {
@@ -185,14 +194,14 @@ nav {
 }
 
 /*--- about-block ---*/
-.about-block_wrapp {
+.about-block-wrapp {
 	border-top: 1px solid #000;
 	border-bottom: 2px solid #000;
 	background: #322539;
-	background: -moz-linear-gradient(top,  #322539 0%, #745083 100%);
-	background: -webkit-linear-gradient(top,  #322539 0%,#745083 100%);
-	background: linear-gradient(to bottom,  #322539 0%,#745083 100%);
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#322539', endColorstr='#745083',GradientType=0 );
+	background: -moz-linear-gradient(top,  #745083 0%, #322539 100%);
+	background: -webkit-linear-gradient(top,  #745083 0%, #322539 100%);
+	background: linear-gradient(to bottom,  #745083 0%, #322539 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#745083', endColorstr='#322539',GradientType=0 );
 }
 .about-block {
 	position: relative;
@@ -479,7 +488,7 @@ p.content-foot__copyright {
 }
 
 /*--- MEDIA QUERIES ---*/
-@media screen and (max-width: 1604px) {
+@media screen and (max-width: 1603px) {
 	.slider__arrow-block {		
 		left: -40px;
 		width: 1040px;
@@ -491,16 +500,26 @@ p.content-foot__copyright {
 		top: 0;
 		left: 0;
 		width: 960px;
+		min-width: 100%;
 	}
 }
 
 @media screen and (max-width: 959px) {
 	/*--- wrapp ---*/
+		.head-wrapp,
+		.about-block-wrapp,
+		.content-main-wrapp,
+		.content__brands-wrapp,
+		.content-foot-wrapp,
+		.footer-wrapp {
+		min-width: 768px;	
+		width: 100%;
+	}
 	.container {
-		width: 768px;
+		max-width: 768px;
+		width: 100%;		
 		margin: 0 auto;		
 	}
-
 	/*--- header ---*/
 	.head-wrapp {
 		padding-bottom: 154px;
@@ -510,7 +529,7 @@ p.content-foot__copyright {
     	margin-bottom: 74px;
 	}
 	.logo {	
-		margin-top: 73px;
+		margin-top: 71px;
 		margin-left: 21px;	
 	}
 
@@ -708,8 +727,17 @@ p.content-foot__copyright {
 
 @media screen and (max-width: 767px) {
 	/*--- wrapp ---*/
+	.head-wrapp,
+	.about-block-wrapp,
+	.content-main-wrapp,
+	.content__brands-wrapp,
+	.content-foot-wrapp,
+	.footer-wrapp {
+		min-width: 480px;	
+		width: 100%;
+	}
 	.container {
-		width: 480px;
+		max-width: 480px;
 	}
 
 	/*--- header ---*/
@@ -1012,8 +1040,17 @@ p.content-foot__copyright {
 
 @media screen and (max-width: 479px) {
 	/*--- wrapp ---*/
+	.head-wrapp,
+	.about-block-wrapp,
+	.content-main-wrapp,
+	.content__brands-wrapp,
+	.content-foot-wrapp,
+	.footer-wrapp {
+		min-width: 320px;
+		width: 100%;
+	}
 	.container {
-		width: 320px;
+		max-width: 320px;
 	}
 
 	/*--- header ---*/
