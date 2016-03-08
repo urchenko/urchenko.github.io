@@ -1,0 +1,6 @@
+.about-block-wrapp {
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#745083', endColorstr='#322539',GradientType=0 );
+}
+.sub-menu-small__item a:hover{		
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='rgba(43, 34, 49, 0.4)', endColorstr='rgba(41, 32, 47, 0.5)',GradientType=0 );
+}
