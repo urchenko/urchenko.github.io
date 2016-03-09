@@ -1,0 +1,15 @@
+header, nav, section, article, aside, footer {
+   display:block;
+}
+.about-block-wrapp {
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#745083', endColorstr='#322539',GradientType=0 );
+}
+.about-block__item--last {
+	margin-right: 0;
+}
+.content-foot__article--last {
+	margin-right: 0;
+}
+.sub-menu-small__item a:hover{		
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='rgba(43, 34, 49, 0.4)', endColorstr='rgba(41, 32, 47, 0.5)',GradientType=0 );
+}
