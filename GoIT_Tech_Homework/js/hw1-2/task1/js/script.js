@@ -1,4 +1,3 @@
-
 do {
 var base = prompt('Введите число:', '');
 var exponent = prompt('Введите степень:', '');
