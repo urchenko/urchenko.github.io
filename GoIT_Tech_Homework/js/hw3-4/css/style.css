@@ -1,0 +1,30 @@
+body {
+	background: #ddd;
+}
+h1, h2, h3, h4, h5, h6 {
+	color: #336ea0;
+}
+.wrapper {
+	margin-top: 150px;
+	border: 1px solid #337AB7;
+	background: #fff;
+}
+form {
+	padding: 15px 90px 60px;
+}
+.test-title {
+	margin-bottom: 25px;
+	text-align: center;
+}
+.answer-label{
+	display: block;
+	margin-left: 40px; ;
+}
+.test-btn {
+	margin-top: 50px;
+}
+@media screen and (max-width: 479px) {
+	form {
+		padding: 15px 0px 60px;
+	}
+}
