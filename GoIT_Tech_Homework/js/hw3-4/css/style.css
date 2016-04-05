@@ -25,6 +25,6 @@ form {
 }
 @media screen and (max-width: 479px) {
 	form {
-		padding: 15px 0px 60px;
+		padding: 15px 0 60px;
 	}
 }

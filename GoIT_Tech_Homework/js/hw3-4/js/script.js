@@ -111,11 +111,13 @@ var testUp = {
 		element.setAttribute('value', this.btnTitle);
 		this.addElement( element, document.body.querySelector('form.test-form') );
 	},
+	generateTestPage: function () {
+		this.generateWrapper();
+		this.generateForm();
+		this.generateFormTitle();
+		this.generateQuestions();
+		this.generateBtn();
+	}
+};
 
-}
-
-testUp.generateWrapper();
-testUp.generateForm();
-testUp.generateFormTitle();
-testUp.generateQuestions();
-testUp.generateBtn();
+testUp.generateTestPage();
