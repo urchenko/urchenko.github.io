@@ -53,6 +53,7 @@ function Stopwatch(elem, toogleBtn) {
     time = 0;
     update();
     this.isOn = false;
+    toogleBtn.innerHTML = 'Start';
     removeSplitElements();
   };
 
