@@ -1,0 +1,92 @@
+.tabs {
+  margin: 20px auto 50px;
+  padding: 10px;
+  min-width: 220px;
+  width: 60%;
+  min-height: 310px;
+  border: 2px solid #e1e1e1;
+  border-radius: 15px;
+}
+.tabs__menu {
+  border-radius: 15px 15px 5px 5px;
+  background: #d1d1d1;
+  font-size: 0;
+}
+.menu__item {
+  margin-top: 5px;
+  padding-left: 5px;
+  display: inline-block;
+  font-size: 24px;
+}
+.item__link {
+  padding: 5px 5px 0 5px;
+  display: block;
+  border-radius: 15px 15px 0 0;
+  background: #e6e6e6;
+  color: #333;
+}
+.item__link:hover,
+.item__link_active {
+  background: #fff;  
+  text-decoration: none;
+}
+.item__link:focus {
+  text-decoration: none;
+  color: #333;
+}
+.tabs__content {
+  padding: 5px;
+  display: none;
+  font-size: 18px;
+}
+.tabs__content_active {
+  display: block;
+}
+.content__text {
+  font-size: 18px;
+}
+//-------tooltips---------//
+.toolblock{}
+.tooltips__set{
+  margin: 20px auto;
+  padding: 10px;
+  min-width: 220px;
+  width: 60%;
+}
+.tooltips__wrap {
+  position: relative;
+  margin: 10px 10px;
+}
+.tooltips__name {
+}
+.tooltip__ifild {}
+
+.tooltips__tip {
+  position: absolute;
+  top: 0px;
+  left: 50%;
+  display: none;
+  padding: 3px;
+  min-width: 235px;
+  border: 1px solid #e1e1e1;
+  border-radius: 10px 10px 10px 0;
+  -webkit-box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.65);
+  -moz-box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.65);
+  box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.65);
+  background-color: white;
+}
+.tooltips__btn {
+  padding: 6px 3px;
+  background-color: #e1e1e1;
+}
+@media screen and (max-width: 767px) {
+  .tooltips__wrap {
+    position: relative;
+  }
+  .tooltips__tip {
+    position: absolute;
+    top: -3px;
+    left: 37%;
+    padding: 0;
+  }
+}
