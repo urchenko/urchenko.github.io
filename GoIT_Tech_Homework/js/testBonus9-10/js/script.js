@@ -6,7 +6,7 @@ window.onload = function () {
    
      this.querySelector('.submenu').style.display = 'block';
      // if (this.style.opacity == 0) { 
-     //   slideDown(this, 1000);
+     slideDown(this, 1000);
      // } 
     });
     element[i].addEventListener('mouseout', function () {
