@@ -4,8 +4,6 @@ window.onload = function () {
   for(var i = 0; i < element.length; i++) {
     element[i].addEventListener('mouseover', function () {
       debugger;
-     
-     console.log(this.querySelector('.submenu'));
      this.querySelector('.submenu').style.display = 'block';
      // if (this.style.opacity == 0) { 
      //   slideDown(this, 1000);
