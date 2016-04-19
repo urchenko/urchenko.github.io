@@ -4,7 +4,7 @@ window.onload = function () {
   for(var i = 0; i < element.length; i++) {
     element[i].addEventListener('mouseover', function () {
       debugger;
-      var
+     
      console.log(this.querySelector('.submenu'));
      this.querySelector('.submenu').style.display = 'block';
      // if (this.style.opacity == 0) { 
