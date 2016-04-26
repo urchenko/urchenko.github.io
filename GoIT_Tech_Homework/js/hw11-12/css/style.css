@@ -1,0 +1,126 @@
+/*-----Carousel-----*/
+.carousel-wrapp {
+  margin: 0 auto;
+  max-width: 750px;
+}
+.carousel {
+  margin: 20px 0;
+}
+.carousel__hider {
+  float: left;
+  overflow: hidden;
+  width: 600px;
+}
+.carousel__list {
+  position: relative;
+  width: 10000px;
+}
+.carousel__item {
+  float: left;
+  margin-right: 25px;
+  display: block;
+}
+.item__image {
+  max-width: 100px;
+}
+.item__text {
+  text-align: center;
+}
+.carousel__arrow {
+  float: left;
+  display: block;
+  padding: 5px;
+  margin-top: 20px;
+  border: 1px solid #808080;
+  background-color: #d3d3d3;
+}
+.carousel__arrow:hover {
+  cursor: pointer;
+  border-color: #d3d3d3;
+}
+.carousel__arrow_left {
+  margin-right: 20px;
+}
+.carousel__arrow_right {
+  margin-left: 20px;
+}
+/*---clearfix---*/
+.clearfix:before,
+.clearfix:after {
+  content: " ";
+  display: table;
+}
+.clearfix:after {
+  clear: both;
+}
+@media screen and (max-width: 750px) {
+  .carousel-wrapp {
+     max-width: 500px;
+  }
+  .carousel__hider {
+    width: 350px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .carousel-wrapp {
+     max-width: 250px;
+  }
+  .carousel__hider {
+    width: 100px;
+  }
+}
+/*---user-profile---*/
+body {
+  background-color: #eee;
+}
+.profile-wrapp {
+  width: 510px;
+  max-width: 95%;
+  margin: 5px auto 45px;
+  background-color: #fff; 
+  -webkit-box-shadow: 0 0 13px -1px #6E6767;
+     -moz-box-shadow: 0 0 13px -1px #6E6767;
+          box-shadow: 0 0 13px -1px #6E6767;
+  font-size: 18px;        
+  text-align: left; 
+}
+.profile-wrapp p {
+  padding-left: 70px;
+}
+.profile-wrapp hr {
+  width: 80%;
+  margin: 20px auto;
+}
+.who {
+  padding-top: 50px;
+  text-align: center;
+}
+.who img {
+  width: 150px;
+  height: 150px;
+  margin: 20px 0 15px;
+}
+.who p {
+  text-align: left;
+}
+.why ul {
+  margin: 20px 0 0 70px;
+}
+.why li {
+  padding-bottom: 5px;
+}
+.contacts p {
+  margin-bottom: 15px;
+}
+.feedback {
+  padding-bottom: 65px;
+}
+.feedback p {
+  padding-bottom: 5px;
+}
+.bonus {
+  text-align: center;
+  font-size: 26px;
+  font-weight: bold;
+  color: #598293;
+}

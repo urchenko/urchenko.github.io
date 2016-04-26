@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>jQuery карусель</title>
+	<link rel="stylesheet" href="css/reset.css">
+	<!-- Bootstrap -->
+	<!-- <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet"> -->
+	<link rel="stylesheet" href="css/style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+	<script src="js/jQuery.carousel.js"></script>
+	<script src="js/tmpl.js"></script>
+	<script src="https://cdn.jsdelivr.net/lodash/4.11.2/lodash.min.js"></script>
+	<script src="js/script.js"></script>
+	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+	<!--[if lt IE 9]>
+	  <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+	  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+	<![endif]-->
+</head> 
+<body>
+	<script type="text/html" class="user-profile">
+		<div class="profile-wrapp">
+			<div class="who">
+				<h2><%= fio %></h2>
+				<img src="<%= photo %>" alt="user photo">
+				<p><%= prevPosition %></p>
+				<hr>
+			</div>
+			<div class="why">
+				<p><%= goal %></p>
+				<ul>
+					<li><%= rationale1 %></li>
+					<li><%= rationale2 %></li>
+					<li><%= rationale3 %></li>
+				</ul>
+				<hr>
+			</div>
+			<div class="contacts">
+				<p>Мой контактный телефон:<br><%= tel %></p>
+				<p>Мой профиль в fb:<br><a href="<%= fb %>" target="_blank">facebook.com</a></p>
+				<hr>
+			</div>
+			<div class="feedback">
+				<p>Мой фидбек:</p>
+				<p><%= feadback %></p>
+			</div>
+		</div>
+	</script>
+	<!-- carousel -->
+	<div class="carousel-wrapp">
+		<div class="carousel clearfix">
+			<div class="carousel__arrow carousel__arrow_left"><span>Влево</span></div>
+			<div class="carousel__hider clearfix">
+				<ul class="carousel__list clearfix">
+					<li class="carousel__item">
+						<img class="item__image" src="img/img1.jpg" alt="picture1">
+						<p class="item__text">Описание 1</p>
+					</li>
+					<li class="carousel__item">
+						<img class="item__image" src="img/img2.jpg" alt="picture2">
+						<p class="item__text">Описание 2</p>
+					</li>
+					<li class="carousel__item">
+						<img class="item__image" src="img/img3.jpg" alt="picture3">
+						<p class="item__text">Описание 3</p>
+					</li>
+					<li class="carousel__item">
+						<img class="item__image" src="img/img4.jpg" alt="picture4">
+						<p class="item__text">Описание 4</p>
+					</li>
+					<li class="carousel__item">
+						<img class="item__image" src="img/img1.jpg" alt="picture5">
+						<p class="item__text">Описание 5</p>
+					</li>
+					<li class="carousel__item">
+						<img class="item__image" src="img/img2.jpg" alt="picture6">
+						<p class="item__text">Описание 6</p>
+					</li>
+					<li class="carousel__item">
+						<img class="item__image" src="img/img3.jpg" alt="picture7">
+						<p class="item__text">Описание 7</p>
+					</li>
+					<li class="carousel__item">
+						<img class="item__image" src="img/img4.jpg" alt="picture8">
+						<p class="item__text">Описание 8</p>
+					</li>
+					<li class="carousel__item">
+						<img class="item__image" src="img/img1.jpg" alt="picture9">
+						<p class="item__text">Описание 9</p>
+					</li>
+					<li class="carousel__item">
+						<img class="item__image" src="img/img2.jpg" alt="picture10">
+						<p class="item__text">Описание 10</p
+					></li>
+					<li class="carousel__item">
+						<img class="item__image" src="img/img3.jpg" alt="picture11">
+						<p class="item__text">Описание 11</p
+					></li>
+					<li class="carousel__item">
+						<img class="item__image" src="img/img4.jpg" alt="picture12">
+						<p class="item__text">Описание 12</p
+					></li>
+				</ul>
+			</div>
+			<div class="carousel__arrow carousel__arrow_right"><span>Влево</span></div>
+		</div>
+	</div>
+	<!-- end carousel -->
+</body>
+</html>
