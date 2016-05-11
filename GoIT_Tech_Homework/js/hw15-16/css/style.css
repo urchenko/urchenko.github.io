@@ -1,0 +1,93 @@
+#sb_form {
+  margin: 15px 60px 0;
+}
+.logo {
+  float: left;
+  margin-top: 5px;
+   margin-right: 10px;
+  display: block;
+  width: 28px;
+  height: 36px;
+  background: url(../img/bing.png) no-repeat;
+}
+.b_searchboxForm {
+  display: inline-block;
+  padding: 0;
+  margin-left: 5px;
+  margin-top: 2px;
+  z-index: 101;
+  border: 1px solid #ccc;
+  font: 18px/normal 'Segoe UI',Arial,Helvetica,Sans-Serif;
+}
+.b_searchbox {
+  width: 490px;
+  margin-top: 4px;
+  margin-right: 0;
+  margin-bottom: 3px;
+  margin-left: 12px;
+  border: 0;
+  padding-top: 0;
+  padding-right: 10px;
+  padding-bottom: 0;
+  padding-left: 0;
+  max-height: 30px;
+  outline: none;
+  border-right: 0;
+  border-color: #ccc;
+  box-sizing: content-box;
+  position: relative;
+  height: 40px;
+}
+.b_searchboxSubmit {
+  width: 32px;
+  height: 32px;
+  background-image: url(../img/bing.png);
+  background-repeat: no-repeat;
+  background-position: -121px 0;
+  vertical-align: middle;
+  border-width: 5px 6px 4px 5px;
+  border-color: #0078d7;
+  border-style: solid;
+  margin: 0 4px 4px;
+  background-color: #0078d7;
+  cursor: pointer;
+}
+#b_content {
+  clear: both;
+  min-height: 344px;
+  padding: 0 0 20px 100px;
+  line-height: 1.2em;
+}
+#b_results {
+  width: 560px;
+  color: #666;
+}
+#b_results>li a:visited {
+  color: #600090;
+}
+#b_results>li a {
+  color: #001ba0;
+}
+.b_algo {
+  padding: 0px 20px 0;
+  margin: 0 0 2px;
+}
+.b_algo:first-child {
+  padding: 12px 20px 0;
+  margin: 0 0 2px;
+}
+.b_caption {
+  padding-bottom: 10px;
+}
+.b_title h4 {
+  margin-bottom: 4px;
+}
+.b_attribution {
+  padding-bottom: 3px;
+}
+cite {
+    font-style: normal;
+    word-wrap: break-word;
+    color: #006d21;
+    font-weight: bold;
+}
