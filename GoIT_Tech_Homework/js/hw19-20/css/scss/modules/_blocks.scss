@@ -1,0 +1,50 @@
+.blocks {
+  margin-bottom: 80px;
+  &__item {
+    float: left;
+    max-width: 33.33%;
+    width: 100%;
+  }
+  &__count {
+    float: left;
+    margin: -5px 30px 80px 0;
+    color: rgba(42,43,46,0.1);
+    font-size: 90px;
+    @include font-family($um);
+  }
+  &__sign {
+    &_pb {
+      padding-bottom: 6px;
+    }
+  }
+  &__header {
+    margin-top: 15px;
+    color: #2a2b2e;
+    font-size: 20px;
+    line-height: 20px;
+    @include font-family($um);
+  }
+  &__article {
+    margin-top: 20px;
+    color: $light-gray;
+    font-size: 13px;
+    line-height: 20px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  }
+  &__post-link {
+    display: block;
+    margin-top: 20px;
+    margin-left: 133px;
+    width: 88px;
+    height: 10px;
+    color: #2a2b2e;
+    font-size: 13px;
+    text-decoration: none;
+    background: url(../img/arrow.png) 74px -9px no-repeat;
+    @include font-family($um);
+    &:hover {
+      color: #248cec;
+      background: url(../img/arrow.png) 74px 2px no-repeat;
+    }
+  }
+}

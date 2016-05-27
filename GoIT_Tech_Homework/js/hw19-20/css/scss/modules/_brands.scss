@@ -1,0 +1,55 @@
+.brands {
+  padding: 70px 0 80px;
+  &__list{
+    font-size: 0;
+  }
+  &__item {
+    display: inline-block;
+    padding-right: 50px;
+    &:last-child {
+      padding-right: 0;
+    }
+  }
+  &__link {
+    display: block;
+    width: 150px;
+    height: 61px;
+    background: url('../img/brands.png') no-repeat;
+    &_1 {
+      background-position: 0 0;
+      &:hover {
+        background-position: 0 -61px;
+      }
+    }
+    &_2 {
+      background-position: -150px 0;
+      &:hover {
+        background-position: -150px -61px;
+      }
+    }
+    &_3 {
+      background-position: -302px 0;
+      &:hover {
+        background-position: -302px -61px;
+      }
+    }
+    &_4 {
+      background-position: -455px 0;
+      &:hover {
+        background-position: -455px -61px;
+      }
+    }
+    &_5 {
+      background-position: -602px 0;
+      &:hover {
+        background-position: -602px -61px;
+      }
+    }
+    &_6 {
+      background-position: -752px 0;
+      &:hover {
+        background-position: -752px -61px;
+      }
+    }
+  }
+}

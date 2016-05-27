@@ -1,0 +1,24 @@
+.logo{
+  float: left;
+  margin-top: 30px;
+  .logo__link {
+    float: left;
+  }
+  .logo__text {
+    float: left;
+    h1 {
+      color: #434343;
+      font-size: 30px;
+      line-height: 20px;
+      @include font-family(ubuntumedium);
+    }
+    p {
+      padding-left: 2px;
+      color: #333;
+      font-size: 12px;
+      line-height: 20px;
+      font-family: ubuntulight, "Helvetica Neue", Helvetica, sans-serif;
+      letter-spacing: 4.5px;
+   }
+  }
+}

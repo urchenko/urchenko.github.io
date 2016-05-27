@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/screen.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/lodash/4.13.1/lodash.min.js"></script>
+	<script src="js/jquery.jcarousel.min.js"></script>
+	<script src="js/script.js"></script>
+	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+	<!--[if lt IE 9]>
+	  <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+	  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+	<![endif]-->
+</head> 
+<body>
+	<div class="wrapper">
+		<header class="clearfix">
+			<div class="logo clearfix">
+				<a href="index.html" class="logo__link">
+					<img src="img/logo.png" alt="logotype" class="logo__img">
+				</a>
+				<div class="logo__text">
+					<h1>Build Home</h1>
+					<p>Industrial Theme</p>
+				</div>
+			</div>
+			<div class="socials clearfix">
+				<a href="#" class="socials__facebook"></a>
+				<a href="#" class="socials__twitter"></a>
+				<a href="#" class="socials__rss"></a>
+				<a href="#" class="socials__linkidn"></a>
+				<a href="#" class="socials__skype"></a>
+			</div>
+		</header>
+		<nav class="clearfix">
+			<ul class="nav-page">
+				<li class="nav-page__item nav-page__link_active">
+					<a href="#" class="li nav-page__link">home</a>
+				</li>
+				<li class="nav-page__item">
+					<a href="#" class="li nav-page__link">features</a>
+				</li>
+				<li class="nav-page__item">
+					<a href="#" class="li nav-page__link">services</a>
+				</li>
+				<li class="nav-page__item">
+					<a href="#" class="li nav-page__link">news</a>
+				</li>
+				<li class="nav-page__item">
+					<a href="#" class="li nav-page__link">shop</a>
+				</li>
+			</ul>
+			<form class="search" action="#">
+				<input class="search__text" type="text" placeholder="search..." maxlength="30">
+				<input class="search__btn" type="submit" value="">
+			</form>
+		</nav>
+		<!-- carousel -->
+		<div class="wrap wrap_jcarousel">
+			<div class="jcarousel">
+				<ul>
+					<li>
+						<img src="img/slide1.jpg" alt="slide1" />
+						<div class="slide-text clearfix">
+							<p>build</p>
+							<p>your</p>
+							<p>business</p>
+						</div>
+					</li>
+					<li>
+						<img src="img/slide2.jpg" alt="slide2" />
+						<div class="slide-text clearfix">
+							<p>build</p>
+							<p>your</p>
+							<p>business</p>
+						</div>
+					</li>
+					<li>
+						<img src="img/slide3.jpg" alt="slide3" />
+						<div class="slide-text clearfix">
+							<p>build</p>
+							<p>your</p>
+							<p>business</p>
+						</div>
+					</li>
+				</ul>
+			</div><!-- end jcarousel -->
+			<!--  PAGINATION  -->
+			<p class="jcarousel-pagination"></p>
+		</div><!-- end wrap_jcarousel -->
+	</div><!-- end wrapper -->
+	<div class="content">
+		<div class="wrapper">
+			<section class="blocks clearfix">
+				<div class="blocks__item">
+					<span class="blocks__count">01</span>
+					<img src="img/settings.png" alt="settings" class="blocks__sign">
+					<h4 class="blocks__header">Power Inside</h4>
+					<p class="blocks__article">Cum sociis natoque penatibus et magnis dis parturient montesmus. Pro vel nibh et elit mollis commodo et nec augueique </p>
+					<a href="#" class="blocks__post-link">Read More</a>
+				</div>
+				<div class="blocks__item">
+					<span class="blocks__count">02</span>
+					<img src="img/params.png" alt="params" class="blocks__sign">
+					<h4 class="blocks__header">New Technologies</h4>
+					<p class="blocks__article">Cum sociis natoque penatibus et magnis dis parturient montesmus. Pro vel nibh et elit mollis commodo et nec augueique </p>
+					<a href="#" class="blocks__post-link">Read More</a>
+				</div>
+				<div class="blocks__item">
+					<span class="blocks__count">03</span>
+					<img src="img/truck.png" alt="truck" class="blocks__sign blocks__sign_pb">
+					<h4 class="blocks__header">Fast Support</h4>
+					<p class="blocks__article">Cum sociis natoque penatibus et magnis dis parturient montesmus. Pro vel nibh et elit mollis commodo et nec augueique </p>
+					<a href="#" class="blocks__post-link">Read More</a>
+				</div>
+			</section>
+		</div><!-- end wrapper -->
+		<section class="services">
+			<div class="wrapper services__wrapp clearfix">
+				<h3 class="services__head">Our Services</h3>
+				<div class="services__block">
+					<div class="services__pic">
+						<img src="img/overlay.png" alt="overlay" class="services__image-h">
+						<img src="img/service1.jpg" alt="service1" class="services__image">
+					</div>
+					<a href="#" class="services__pic-caption">Schedule Services</a>
+				</div>
+				<div class="services__block">
+					<div class="services__pic">
+						<img src="img/overlay.png" alt="overlay" class="services__image-h">
+						<img src="img/service2.jpg" alt="service2" class="services__image">
+					</div>
+					<a href="#" class="services__pic-caption">Preventive Maintence</a>
+				</div>
+				<div class="services__block">
+					<div class="services__pic">
+						<img src="img/overlay.png" alt="overlay" class="services__image-h">
+						<img src="img/service3.jpg" alt="service3" class="services__image">
+					</div>
+					<a href="#" class="services__pic-caption">Tire & Wheel Services</a>
+				</div>
+				<div class="services__block">
+					<div class="services__pic">
+						<img src="img/overlay.png" alt="overlay" class="services__image-h">
+						<img src="img/service4.jpg" alt="service4" class="services__image">
+					</div>
+					<a href="#" class="services__pic-caption">Repair Services</a>
+				</div>
+			</div><!-- end wrapper -->
+		</section>
+		<section class="content-box">
+			<div class="content-box__wrapp wrapper clearfix">
+				<div class="content-box__news">
+					<h3 class="content-box__head">Latest News</h3>
+					<div class="content-box__news1 clearfix">
+						<div class="content-box__img">
+							<img src="img/news1.jpg" alt="news1">
+							<p>Jan</p>
+							<p>23</p>
+						</div>
+						<div class="content-box__article article">
+							<h5 class="article__head"><a href="#">Advanced Machinery Helps Improve Quality</a></h5>
+							<p class="article__comments">by <span>cmsmasters</span> Comments (<span>6</span>)</p>
+							<p class="article__text">Cum sociis natoque penatibus et magnis dis parturient ontesmus. Pro vel nibh et elit mollis commodo et nec augueique Nemo enim ipsam voluptatem quia ptas sit aspernatur samomo enim ipsam voluptatem.</p>
+						</div>
+					</div>
+					<div class="content-box_news2 clearfix">
+						<div class="content-box__img">
+							<img src="img/news2.jpg" alt="news2">
+							<p>Jan</p>
+							<p>21</p>
+						</div>
+						<div class="content-box__article article">
+							<h5 class="article__head"><a href="#">Powerful Techniques for Advanced Service</a></h5>
+							<p class="article__comments">by <span>cmsmasters</span> Comments (<span>6</span>)</p>
+							<p class="article__text">Cum sociis natoque penatibus et magnis dis parturient ontesmus. Pro vel nibh et elit mollis commodo et nec augueique Nemo enim ipsam voluptatem quia ptas sit aspernatur samomo enim ipsam voluptatem.</p>
+						</div>
+					</div>
+				</div>
+				<div class="content-box__banners">
+					<h3 class="content-box__head">Banners Place</h3>
+					<div class="content-box__banner">
+						<div class="container">
+							<div class="accordion">
+								<dl>
+									<dt>
+										<a href="#accordion1" aria-expanded="true" aria-controls="accordion1" class="accordion-title accordionTitle js-accordionTrigger is-collapsed is-expanded">Accordion Panel 1</a>
+									</dt>
+									<dd class="accordion-content accordionItem is-expanded animateIn" id="accordion1" aria-hidden="false">
+										<p>Cum sociis natoque penatibus et magnis dis parturient mus. Pro vel nibh et elit mollis commodo et nec augueique Nemo enim ipsam voluptatem quia ptas sit aspernatur momo. Cum sociis natoque penatibus et magnis dis parturient ontesmus. Nemo enim ipsam voluptatem quia ptas sit aspernatur samomoPro vel nibh et elit mollis commodo et nec augueique Nemo enim ipsam voluptatem quia ptas sit aspernatur</p>
+									</dd>
+									<dt>
+										<a href="#accordion2" aria-expanded="false" aria-controls="accordion2" class="accordion-title accordionTitle js-accordionTrigger">Accordion Panel 2</a>
+									</dt>
+									<dd class="accordion-content accordionItem is-collapsed" id="accordion2" aria-hidden="true">
+										<p>Cum sociis natoque penatibus et magnis dis parturient mus. Pro vel nibh et elit mollis commodo et nec augueique Nemo enim ipsam voluptatem quia ptas sit aspernatur momo. Cum sociis natoque penatibus et magnis dis parturient ontesmus. Nemo enim ipsam voluptatem quia ptas sit aspernatur samomoPro vel nibh et elit mollis commodo et nec augueique Nemo enim ipsam voluptatem quia ptas sit aspernatur</p>
+									</dd>
+									<dt>
+										<a href="#accordion3" aria-expanded="false" aria-controls="accordion3" class="accordion-title accordionTitle js-accordionTrigger">Accordion Panel 3</a>
+									</dt>
+									<dd class="accordion-content accordionItem is-collapsed" id="accordion3" aria-hidden="true">
+										<p>Cum sociis natoque penatibus et magnis dis parturient mus. Pro vel nibh et elit mollis commodo et nec augueique Nemo enim ipsam voluptatem quia ptas sit aspernatur momo. Cum sociis natoque penatibus et magnis dis parturient ontesmus. Nemo enim ipsam voluptatem quia ptas sit aspernatur samomoPro vel nibh et elit mollis commodo et nec augueique Nemo enim ipsam voluptatem quia ptas sit aspernatur</p>
+									</dd>
+									<dt>
+										<a href="#accordion4" aria-expanded="false" aria-controls="accordion4" class="accordion-title accordionTitle js-accordionTrigger">Accordion Panel 4</a>
+									</dt>
+									<dd class="accordion-content accordionItem is-collapsed" id="accordion4" aria-hidden="true">
+										<p>Cum sociis natoque penatibus et magnis dis parturient mus. Pro vel nibh et elit mollis commodo et nec augueique Nemo enim ipsam voluptatem quia ptas sit aspernatur momo. Cum sociis natoque penatibus et magnis dis parturient ontesmus. Nemo enim ipsam voluptatem quia ptas sit aspernatur samomoPro vel nibh et elit mollis commodo et nec augueique Nemo enim ipsam voluptatem quia ptas sit aspernatur</p>
+									</dd>
+								</dl>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div><!-- end wrapper -->
+		</section>
+		<div class="brands">
+			<div class="brands__wrapp wrapper clearfix">
+				<ul class="brands__list">
+					<li class="brands__item">
+						<a href="#" class="brands__link brands__link_1"></a>
+					</li>
+					<li class="brands__item">
+						<a href="#" class="brands__link brands__link_2"></a>
+					</li>
+					<li class="brands__item">
+						<a href="#" class="brands__link brands__link_3"></a>
+					</li>
+					<li class="brands__item">
+						<a href="#" class="brands__link brands__link_4"></a>
+					</li>
+					<li class="brands__item">
+						<a href="#" class="brands__link brands__link_5"></a>
+					</li>
+					<li class="brands__item">
+						<a href="#" class="brands__link brands__link_6"></a>
+					</li>
+				</ul>
+			</div><!-- end wrapper -->
+		</div>
+	</div><!-- end content -->
+	<footer class="foot">
+		<div class="foot__links-wrapp wrapper clearfix">
+			<div class="foot__links site-map clearfix">
+				<div class="site-map__socials">
+					<h4 class="site-map__head">socials</h4>
+					<a href="#" class="site-map__link">Facebook</a>
+					<a href="#" class="site-map__link">Flickr</a>
+					<a href="#" class="site-map__link">Twitter</a>
+					<a href="#" class="site-map__link">Vimeo</a>
+				</div>
+				<div class="site-map__links">
+					<h4 class="site-map__head">links</h4>
+					<a href="#" class="site-map__link">How to Write a Blog</a>
+					<a href="#" class="site-map__link">Create a Blog in 4 Steps</a>
+					<a href="#" class="site-map__link">15 Tips to Increase Traffic</a>
+					<a href="#" class="site-map__link">20 Blog Post Ideas</a>
+				</div>
+				<div class="site-map__blogroll">
+					<h4 class="site-map__head">blogroll</h4>
+					<a href="#" class="site-map__link">Blogs Blog</a>
+					<a href="#" class="site-map__link">Roll Up Roll Up</a>
+					<a href="#" class="site-map__link">Blog Free</a>
+					<a href="#" class="site-map__link">Wordpress Blog</a>
+				</div>
+				<div class="site-map__about-us">
+					<h4 class="site-map__head">about us</h4>
+					<a href="#" class="site-map__link">Agriculture</a>
+					<a href="#" class="site-map__link">Harvest</a>
+					<a href="#" class="site-map__link">Company news</a>
+					<a href="#" class="site-map__link">Investor relations</a>
+				</div>
+			</div>
+		</div><!-- end wrapper -->
+		<div class="foot__line">
+			<div class="foot__line-wrapp wrapper clearfix">
+				<p class="foot__addres">
+					<img src="img/location.png" alt="location">
+					BuildHomeLtd. Street Name 123 23 45 Cityname
+				</p>
+				<p class="foot__tel">
+					<img src="img/iphone_port.png" alt="location">
+					+123 900 123 456
+				</p>
+				<p class="foot__email">
+					<img src="img/e-mail.png" alt="location">
+					info@buildhome.web
+				</p>
+				<p class="foot__rights">© 2014 Build Home</p>
+			</div><!-- end wrapper -->
+		</div>
+	</footer>
+</body>
+</html>

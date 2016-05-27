@@ -1,0 +1,48 @@
+nav{
+  margin-top: 30px;
+  background: $gray;
+}
+.nav-page {
+  float: left;
+  font-size: 0;
+  &__item {
+    display: inline-block;
+  }
+  &__link {
+    display: block;
+    padding: 20px 40px;
+    border-right: 1px solid $black;
+    color: $white;
+    font-size: 14px;
+    line-height: 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    @include font-family(ubuntu_condensedregular);
+    &:hover {
+      color: $gold;
+    }
+    &_active {
+      background: $blue;
+    }
+  }
+}
+.search {
+  float: right;
+  &__text {
+    margin-top: 9px;
+    margin-right: -5px;
+    padding: 12px 35px 12px 15px;
+    border: 1px solid $black;
+    outline: 0;
+    background: #35383c;
+    color: $white;
+  }
+  &__btn {
+    position: relative;
+    top: 5px;
+    left: -30px;
+    border: none;
+    background: url(../img/search__btn.png) no-repeat;
+    @include font-family(Arial);
+  }
+}
