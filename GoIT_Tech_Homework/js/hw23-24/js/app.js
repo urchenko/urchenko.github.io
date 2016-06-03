@@ -16,7 +16,7 @@ require(
       'view',
       'controller'
     ],
-    function ($, tmpl, Model, View, Controller) {
+    function ($, tmpl, model, view, controller) {
         var firstToDoList = ['homework 24', 'finalExam', 'findJob'];
         var model = new Model(firstToDoList);
         var view = new View(model);
