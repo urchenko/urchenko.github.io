@@ -12,9 +12,9 @@ require(
     [
       'jquery',
       'tmpl',
-      'Model',
-      'View',
-      'Controller'
+      'model',
+      'view',
+      'controller'
     ],
     function ($, tmpl, Model, View, Controller) {
         var firstToDoList = ['homework 24', 'finalExam', 'findJob'];
