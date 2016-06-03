@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Test</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <!-- Bootstrap -->
+<!--     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet"> -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script> -->
+    <!-- <script src="js/tmpl.js"></script> -->
+    <script data-main="js/app" src="js/require.js"></script>
+    <!-- <script src="js/script.js"></script> -->
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head> 
+<body>
+    <script type="text/html" id="wrapper-template">
+        <div class="wrapper">
+            <h1>todos</h1>
+            <div class="controlls-block">
+                <div class="controlls">
+                    <input type="text" class="item-value" placeholder="What needs to be done?" maxlength="50">
+                    <button class="item-add">+</button>
+                </div>
+                <ul class="item-list"></ul>
+            </div>
+            <p class="item-tip">Double-click to edit a todo</p>
+        </div>
+    </script>
+    <script type="text/html" id="list-template">
+        <% for(var i = 0; i < data.length; i++) {%>
+            <li id="<%= i + 1 %>" class="todoitem">
+                <label id="<%= i + 1 %>" class="item-label" data-value="<%= data[i] %>"><%= data[i] %></label>
+                <span class="item-delete" data-value="<%= data[i] %>">×</span>
+                <input id="<%= i + 1 %>" type="text" class="item-new-value" value="">
+            </li>
+        <% } %>
+    </script>
+</body>
+</html>
