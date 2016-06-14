@@ -1,0 +1,62 @@
+/*
+Icon classes can be used entirely standalone. They are named after their original file names.
+
+Example usage in HTML:
+
+`display: block` sprite:
+<div class="icon-home"></div>
+
+To change `display` (e.g. `display: inline-block;`), we suggest using a common CSS class:
+
+// CSS
+.icon {
+  display: inline-block;
+}
+
+// HTML
+<i class="icon icon-home"></i>
+*/
+.icon-partner_1 {
+  background-image: url(../img/sprite-partners.png);
+  background-position: 0px 0px;
+  width: 121px;
+  height: 121px;
+}
+.icon-partner_2 {
+  background-image: url(../img/sprite-partners.png);
+  background-position: -121px 0px;
+  width: 121px;
+  height: 121px;
+}
+.icon-partner_3 {
+  background-image: url(../img/sprite-partners.png);
+  background-position: -121px -121px;
+  width: 121px;
+  height: 120px;
+}
+.icon-partner_4 {
+  background-image: url(../img/sprite-partners.png);
+  background-position: 0px -121px;
+  width: 121px;
+  height: 121px;
+}
+
+@media (-webkit-min-device-pixel-ratio: 2),
+       (min-resolution: 192dpi) {
+  .icon-partner_1 {
+    background-image: url(../img/sprite-partners@2x.png);
+    background-size: 242px 242px;
+  }
+  .icon-partner_2 {
+    background-image: url(../img/sprite-partners@2x.png);
+    background-size: 242px 242px;
+  }
+  .icon-partner_3 {
+    background-image: url(../img/sprite-partners@2x.png);
+    background-size: 242px 242px;
+  }
+  .icon-partner_4 {
+    background-image: url(../img/sprite-partners@2x.png);
+    background-size: 242px 242px;
+  }
+}
