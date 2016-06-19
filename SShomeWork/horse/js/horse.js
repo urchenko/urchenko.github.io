@@ -60,19 +60,17 @@ for (; queue.length !== 0;) {
     stepY = y + stepXY[i][1];
 
     if ( stepX < n && stepX >= 0 && stepY < n && stepY >= 0 ) {
-
-      if ( board[stepX][stepY] == 0) {
-
+      switch ( board[stepX][stepY] ) {
+        case 0:
           board[stepX][stepY] = 1;
           queue.push([stepX,stepY]);
           way[stepX][stepY] = [x,y];
-
-      } else if ( board[stepX][stepY] == 'f' ) {
-
+          break;
+        case 'f':
           way[stepX][stepY] = [x,y];
           console.log(wayCord(stepX,stepY));
           queue = [];
-
+          break;
       }
     }
   }
